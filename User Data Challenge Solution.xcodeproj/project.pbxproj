@@ -21,10 +21,10 @@
 		BEAA842D190181870021DFDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEAA842B190181870021DFDA /* InfoPlist.strings */; };
 		BEAA842F190181870021DFDA /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA842E190181870021DFDA /* User_Data_Challenge_SolutionTests.m */; };
 		BEAA843A19018A780021DFDA /* KXUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA843919018A780021DFDA /* KXUserData.m */; };
-		BEAA843F19018CBD0021DFDA /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843B19018CBD0021DFDA /* person1.jpeg */; };
-		BEAA844019018CBD0021DFDA /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843C19018CBD0021DFDA /* person2.jpeg */; };
-		BEAA844119018CBD0021DFDA /* person3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843D19018CBD0021DFDA /* person3.jpeg */; };
-		BEAA844219018CBD0021DFDA /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843E19018CBD0021DFDA /* person4.jpeg */; };
+		BEAA843F19018CBD0021DFDA /* person1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843B19018CBD0021DFDA /* person1.jpg */; };
+		BEAA844019018CBD0021DFDA /* person2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843C19018CBD0021DFDA /* person2.jpg */; };
+		BEAA844119018CBD0021DFDA /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843D19018CBD0021DFDA /* person3.jpg */; };
+		BEAA844219018CBD0021DFDA /* person4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843E19018CBD0021DFDA /* person4.jpg */; };
 		BEAA8445190193230021DFDA /* KXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA8444190193230021DFDA /* KXTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +58,10 @@
 		BEAA842E190181870021DFDA /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
 		BEAA843819018A780021DFDA /* KXUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXUserData.h; sourceTree = "<group>"; };
 		BEAA843919018A780021DFDA /* KXUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXUserData.m; sourceTree = "<group>"; };
-		BEAA843B19018CBD0021DFDA /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
-		BEAA843C19018CBD0021DFDA /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
-		BEAA843D19018CBD0021DFDA /* person3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpeg; sourceTree = "<group>"; };
-		BEAA843E19018CBD0021DFDA /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		BEAA843B19018CBD0021DFDA /* person1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpg; sourceTree = "<group>"; };
+		BEAA843C19018CBD0021DFDA /* person2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpg; sourceTree = "<group>"; };
+		BEAA843D19018CBD0021DFDA /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		BEAA843E19018CBD0021DFDA /* person4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpg; sourceTree = "<group>"; };
 		BEAA8443190193230021DFDA /* KXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXTableViewController.h; sourceTree = "<group>"; };
 		BEAA8444190193230021DFDA /* KXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE2BA30C1901C7CA00784247 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA843819018A780021DFDA /* KXUserData.h */,
+				BEAA843919018A780021DFDA /* KXUserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BEAA83F7190181870021DFDA = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +137,7 @@
 				BEAA8415190181870021DFDA /* Main.storyboard */,
 				BEAA8443190193230021DFDA /* KXTableViewController.h */,
 				BEAA8444190193230021DFDA /* KXTableViewController.m */,
-				BEAA843819018A780021DFDA /* KXUserData.h */,
-				BEAA843919018A780021DFDA /* KXUserData.m */,
+				BE2BA30C1901C7CA00784247 /* Model */,
 				BEAA841B190181870021DFDA /* Images.xcassets */,
 				BEAA840A190181870021DFDA /* Supporting Files */,
 			);
@@ -139,10 +147,10 @@
 		BEAA840A190181870021DFDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEAA843B19018CBD0021DFDA /* person1.jpeg */,
-				BEAA843C19018CBD0021DFDA /* person2.jpeg */,
-				BEAA843D19018CBD0021DFDA /* person3.jpeg */,
-				BEAA843E19018CBD0021DFDA /* person4.jpeg */,
+				BEAA843B19018CBD0021DFDA /* person1.jpg */,
+				BEAA843C19018CBD0021DFDA /* person2.jpg */,
+				BEAA843D19018CBD0021DFDA /* person3.jpg */,
+				BEAA843E19018CBD0021DFDA /* person4.jpg */,
 				BEAA840B190181870021DFDA /* User Data Challenge Solution-Info.plist */,
 				BEAA840C190181870021DFDA /* InfoPlist.strings */,
 				BEAA840F190181870021DFDA /* main.m */,
@@ -246,13 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEAA844119018CBD0021DFDA /* person3.jpeg in Resources */,
-				BEAA843F19018CBD0021DFDA /* person1.jpeg in Resources */,
+				BEAA844119018CBD0021DFDA /* person3.jpg in Resources */,
+				BEAA843F19018CBD0021DFDA /* person1.jpg in Resources */,
 				BEAA841C190181870021DFDA /* Images.xcassets in Resources */,
 				BEAA840E190181870021DFDA /* InfoPlist.strings in Resources */,
-				BEAA844219018CBD0021DFDA /* person4.jpeg in Resources */,
+				BEAA844219018CBD0021DFDA /* person4.jpg in Resources */,
 				BEAA8417190181870021DFDA /* Main.storyboard in Resources */,
-				BEAA844019018CBD0021DFDA /* person2.jpeg in Resources */,
+				BEAA844019018CBD0021DFDA /* person2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
