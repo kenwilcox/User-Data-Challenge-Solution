@@ -14,7 +14,6 @@
 		BEAA8410190181870021DFDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA840F190181870021DFDA /* main.m */; };
 		BEAA8414190181870021DFDA /* KXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA8413190181870021DFDA /* KXAppDelegate.m */; };
 		BEAA8417190181870021DFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAA8415190181870021DFDA /* Main.storyboard */; };
-		BEAA841A190181870021DFDA /* KXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA8419190181870021DFDA /* KXViewController.m */; };
 		BEAA841C190181870021DFDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAA841B190181870021DFDA /* Images.xcassets */; };
 		BEAA8423190181870021DFDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA8422190181870021DFDA /* XCTest.framework */; };
 		BEAA8424190181870021DFDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA8403190181870021DFDA /* Foundation.framework */; };
@@ -26,6 +25,7 @@
 		BEAA844019018CBD0021DFDA /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843C19018CBD0021DFDA /* person2.jpeg */; };
 		BEAA844119018CBD0021DFDA /* person3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843D19018CBD0021DFDA /* person3.jpeg */; };
 		BEAA844219018CBD0021DFDA /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BEAA843E19018CBD0021DFDA /* person4.jpeg */; };
+		BEAA8445190193230021DFDA /* KXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA8444190193230021DFDA /* KXTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,6 @@
 		BEAA8412190181870021DFDA /* KXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAppDelegate.h; sourceTree = "<group>"; };
 		BEAA8413190181870021DFDA /* KXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAppDelegate.m; sourceTree = "<group>"; };
 		BEAA8416190181870021DFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEAA8418190181870021DFDA /* KXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXViewController.h; sourceTree = "<group>"; };
-		BEAA8419190181870021DFDA /* KXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXViewController.m; sourceTree = "<group>"; };
 		BEAA841B190181870021DFDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEAA8421190181870021DFDA /* User Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAA8422190181870021DFDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +62,8 @@
 		BEAA843C19018CBD0021DFDA /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
 		BEAA843D19018CBD0021DFDA /* person3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpeg; sourceTree = "<group>"; };
 		BEAA843E19018CBD0021DFDA /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		BEAA8443190193230021DFDA /* KXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXTableViewController.h; sourceTree = "<group>"; };
+		BEAA8444190193230021DFDA /* KXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 				BEAA8412190181870021DFDA /* KXAppDelegate.h */,
 				BEAA8413190181870021DFDA /* KXAppDelegate.m */,
 				BEAA8415190181870021DFDA /* Main.storyboard */,
-				BEAA8418190181870021DFDA /* KXViewController.h */,
-				BEAA8419190181870021DFDA /* KXViewController.m */,
+				BEAA8443190193230021DFDA /* KXTableViewController.h */,
+				BEAA8444190193230021DFDA /* KXTableViewController.m */,
 				BEAA843819018A780021DFDA /* KXUserData.h */,
 				BEAA843919018A780021DFDA /* KXUserData.m */,
 				BEAA841B190181870021DFDA /* Images.xcassets */,
@@ -271,9 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEAA841A190181870021DFDA /* KXViewController.m in Sources */,
 				BEAA8410190181870021DFDA /* main.m in Sources */,
 				BEAA8414190181870021DFDA /* KXAppDelegate.m in Sources */,
+				BEAA8445190193230021DFDA /* KXTableViewController.m in Sources */,
 				BEAA843A19018A780021DFDA /* KXUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

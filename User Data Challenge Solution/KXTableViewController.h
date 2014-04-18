@@ -1,5 +1,5 @@
 //
-//  KXViewController.h
+//  KXTableViewController.h
 //  User Data Challenge Solution
 //
 //  Created by Kenneth Wilcox on 4/18/14.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KXUserData.h"
 
-@interface KXViewController : UIViewController
+@interface KXTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSArray *users;
 
 @end
